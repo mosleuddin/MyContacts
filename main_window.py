@@ -24,11 +24,11 @@ from PySide6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QVBoxLayout,
                                QTableView, QAbstractItemView, QPushButton, QDialog,
                                QLineEdit, QMessageBox, QLabel, QComboBox)
 
-from .about import About
-from .models import ContactsModel, UsersModel
-from .contacts import MangeDialog
-from .change_password import ChangePassword
-from .module import custom_font, init_win
+from about import About
+from models import ContactsModel, UsersModel
+from contacts import MangeDialog
+from change_password import ChangePassword
+from module import custom_font, init_win
 
 
 class MainWindow(QMainWindow):

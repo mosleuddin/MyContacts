@@ -24,10 +24,10 @@ from PySide6.QtSql import QSqlDatabase
 from PySide6.QtWidgets import (QApplication, QDialog, QVBoxLayout, QHBoxLayout, QFormLayout,
                                QLabel, QLineEdit, QPushButton, QMessageBox)
 
-from .database import createTables
-from .main_window import MainWindow
-from .models import UsersModel
-from .module import custom_font
+from database import createTables
+from main_window import MainWindow
+from models import UsersModel
+from module import custom_font
 
 
 class LogInWindow(QDialog):
@@ -175,14 +175,3 @@ class LogInWindow(QDialog):
         createTables()
         return True
 
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    font = QFont()
-    font.setFamily('Verdana, Helvetica, sans-serif')
-    font.setPointSize(12)
-    app.setFont(font)
-    my_win = LogInWindow()
-    my_win.show()
-    app.exec_()
-    sys.exit()

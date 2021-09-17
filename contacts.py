@@ -22,7 +22,7 @@ from PySide6.QtGui import QIntValidator, QIcon
 from PySide6.QtWidgets import (QDialog, QVBoxLayout, QFormLayout,
                                QLineEdit, QDialogButtonBox, QApplication, QLabel)
 
-from .module import valid_space, min_length, alpha_or_space, is_unique, custom_font
+from module import valid_space, min_length, alpha_or_space, is_unique, custom_font
 
 
 class MangeDialog(QDialog):

@@ -22,8 +22,8 @@ from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QFormLayout,
                                QLabel, QLineEdit, QPushButton)
 
-from mycontacts.models import UsersModel
-from mycontacts.module import custom_font
+from models import UsersModel
+from module import custom_font
 
 
 class ChangePassword(QDialog):

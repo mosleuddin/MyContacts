@@ -22,7 +22,7 @@ from PySide6.QtCore import QUrl
 from PySide6.QtWidgets import (QWidget, QDialog, QTabWidget, QPushButton, QLabel,
                                QPlainTextEdit, QVBoxLayout, QHBoxLayout, QTextBrowser)
 
-from .module import init_win
+from module import init_win
 
 app_name = 'MyContacts (1.0.0)'
 
@@ -87,7 +87,7 @@ class About(QDialog):
         label_app.setAlignment(Qt.AlignCenter)
 
         self.notice = QTextBrowser()
-        file = 'mycontacts/notice.html'
+        file = 'notice.html'
         self.notice.setSource(QUrl(file))
         self.notice.setOpenExternalLinks(True)
         self.notice.setStyleSheet("font: Arial 12 100")

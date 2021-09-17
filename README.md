@@ -6,6 +6,13 @@ the application to test my knowledge on Python3 , PySide6 and on all other libra
 I hope the codes used in the application will help other Python3 and PySide6 developers who are absolutely
 new to these areas. 
 
+### Default username and password are appended below 
+#### username ----> user
+#### password ----> 1234
+
+##### The username can not be changed.
+##### It is recommended to change the default password after first login.
+
 ## Screenshots of the application
 
 #### Login Window
@@ -16,7 +23,7 @@ new to these areas.
 ![Main Window](screenshots/main_window.png)
 
 
-####Add Contact Window
+#### Add Contact Window
 ![Add Contact Window](screenshots/add_contact_window.png)
 
 

@@ -17,7 +17,17 @@
     along with MyContacts.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-from mycontacts.main import main
+import sys
+
+from PySide6.QtWidgets import QApplication
+from login import LogInWindow
+
+
+def main():
+    app = QApplication(sys.argv)
+    win = LogInWindow()
+    app.exec()
+    sys.exit()
 
 
 if __name__ == "__main__":

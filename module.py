@@ -17,7 +17,7 @@
     along with MyContacts.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-from PySide6.QtGui import QFont, QScreen
+from PySide6.QtGui import QFont
 from PySide6.QtSql import QSqlQuery
 from PySide6.QtWidgets import QApplication
 
